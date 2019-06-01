@@ -3,6 +3,9 @@
 This repository contains my experiments on the [Rossmann Store Sales](https://www.kaggle.com/c/rossmann-store-sales/data) dataset
 using the [fastai](https://github.com/fastai/fastai) library.
 
+The goal is to investigate if there are any general techniques (e.g. preprocessing steps, feature engineering, etc)
+that can help deep learning models on tabular data converge faster and/or with higher accuracy.
+
 # Usage
 
 1. Install Docker
@@ -26,7 +29,7 @@ using the [fastai](https://github.com/fastai/fastai) library.
 5. Navigate to the [notebooks](/notebooks) folder. This folder contains:
     * [01_rossmann_data_clean](/notebooks/01_rossman_data_clean.ipynb): Download the training and test set
     * [02_EDA](/notebooks/02_EDA.ipynb): Some exploratory data analysis on the dataset
-    * [03_modelling](/notebooks/03_modelling.ipynb): Models I've tried so far
+    * [03_modelling](/notebooks/03_modelling.ipynb): Models/techniques I've tried so far
     
     # Contributing
     Feel free to raise a pull request for any questions, comments, feedback, etc.
